@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    images: {
+      remotePatterns: [
+        {
+          hostname: "hallowed-panther-564.convex.cloud",
+        },
+      ],
+    },
+  };
+  
+  export default nextConfig;
